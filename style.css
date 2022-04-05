@@ -1,0 +1,40 @@
+body{
+    background-color:#faf1d6 ;
+}
+h1{
+    color: #74b6be;
+    background-color:#b6e3e9 ;
+    padding-top: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: hello;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes hello{
+
+    from {box-shadow: 1px 1px 38px #e7a6a3;}
+    to {box-shadow: 1px 1px 38px #74b6be;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color:#74b6be;
+    font-family: 'Comfortaa', cursive;
+}
+#clearCanvas{
+    background-color:#e7a6a3 ;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
